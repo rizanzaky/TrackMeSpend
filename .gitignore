@@ -4,4 +4,4 @@
 /platforms
 /bin
 android.json
-www/build/
+/www/build
