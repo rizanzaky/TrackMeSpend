@@ -1,6 +1,29 @@
 <ion-content padding class="home">
-  <h2>Track Me Spend</h2>
-  <p>
-    Under Development!
-  </p>
+	<br>
+	<button fab fab-right secondary (click)="showPrompt()"><ion-icon name="md-add"></ion-icon></button>
+	<h3>Track Me Spend</h3>
+	<br>
+	<ion-card>
+		<ion-card-header>
+			Average Distribution
+		</ion-card-header>
+		<ion-card-content>
+			<!-- Add card content here! -->
+			<span class="chart"></span>
+		</ion-card-content>
+	</ion-card>
+	<br>
+	<ion-grid>
+		<ion-row center>
+			<ion-col width-33>
+				<button clear large><ion-img src="icons/home-month.png" height=50px width=55px></ion-img></button>
+			</ion-col>
+			<ion-col width-33>
+				<button clear large><ion-img src="icons/home-week.png" height=50px width=55px></ion-img></button>
+			</ion-col>
+			<ion-col width-33>
+				<button clear large><ion-img src="icons/home-day.png" height=50px width=55px></ion-img></button>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>
