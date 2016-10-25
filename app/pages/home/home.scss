@@ -10,3 +10,18 @@
 ion-row[center] {
 	text-align: center;
 }
+
+//
+.prompt-pop-up.show-page {
+	background: rgba(0,0,0,0.5);
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 35%;
+}
+
+.pop-wrapper {
+	border-radius: 13px;
+	background: white;
+	z-index: -1;
+	padding: 15px 6px;
+}
